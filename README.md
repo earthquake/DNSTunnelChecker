@@ -4,7 +4,7 @@ Basic DNS server checker tool based on a server+client architecture to map out w
 
 
 ### Usage ###
-You must own your own domain which points to your server as it is required with all DNS tunnelling tools.
+You must own your own domain which points to your server just like it is required with all DNS tunnelling tools.
 
 On the server side, the tool needs to be executed as:
 `python main.py -s --domain [example.com]`

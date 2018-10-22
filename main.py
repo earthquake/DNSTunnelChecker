@@ -284,6 +284,8 @@ class Tester():
 					continue
 
 			if nanswers and ((RRtype_num_r == qtype)):
+				if not 0 in answers:
+					return False
 				if (answers[0]["type"] == RRtype_num_a):
 					if nanswers == num:
 						if verbose:
